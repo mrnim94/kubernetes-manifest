@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   name: {{ include "nimtechnology.fullname" . }}
   labels:
+    nimtechnology: ahihi
     {{- include "nimtechnology.labels" . | nindent 4 }}
 spec:
   {{- if not .Values.autoscaling.enabled }}

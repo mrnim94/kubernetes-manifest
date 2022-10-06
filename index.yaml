@@ -3,12 +3,12 @@ entries:
   nimtechnology:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-05T15:06:01.54453094+07:00"
+    created: "2022-10-06T14:25:53.369042356+07:00"
     description: A Helm chart for Kubernetes
-    digest: 0f801db19893d4e9f84241c670ad5d1966a440b2b592506ebdbfce809c68f204
+    digest: f26e9378e2aa730f81bbc088bb82583b662ac4ebc7595321370db622ccd44d8f
     name: nimtechnology
     type: application
     urls:
     - nimtechnology-0.1.0.tgz
     version: 0.1.0
-generated: "2022-10-05T15:06:01.54415415+07:00"
+generated: "2022-10-06T14:25:53.368674424+07:00"
