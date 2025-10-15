@@ -155,7 +155,7 @@ spec:
   selector:
     matchLabels:
       app: staff-service
-  replicas: 0
+  replicas: 1
   template:
     metadata:
       annotations:
