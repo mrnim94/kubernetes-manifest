@@ -182,7 +182,7 @@ spec:
   selector:
     matchLabels:
       app: staff-service
-  replicas: 1
+  replicas: 0
   template:
     metadata:
       annotations:
