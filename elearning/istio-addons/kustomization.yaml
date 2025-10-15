@@ -5,4 +5,5 @@ kind: Kustomization
 resources:
   - https://raw.githubusercontent.com/istio/istio/refs/tags/1.27.2/samples/addons/prometheus.yaml
   - https://raw.githubusercontent.com/istio/istio/refs/tags/1.27.2/samples/addons/kiali.yaml
+  - https://raw.githubusercontent.com/istio/istio/refs/tags/1.27.2/samples/addons/grafana.yaml
 
