@@ -4,4 +4,5 @@ kind: Kustomization
 # refer to https://github.com/istio/istio/tree/master/samples/addons
 resources:
   - https://raw.githubusercontent.com/istio/istio/refs/tags/1.27.2/samples/addons/prometheus.yaml
+  - https://raw.githubusercontent.com/istio/istio/refs/tags/1.27.2/samples/addons/kiali.yaml
 
