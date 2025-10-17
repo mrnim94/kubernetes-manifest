@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: httpbin
-        image: docker.nimtechnology.com/dockerhub/kennethreitz/httpbin
+        image: kennethreitz/httpbin
         resources:
           limits:
             memory: "128Mi"
