@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: httpbin
-        image: kennethreitz/httpbin
+        image: mrnim94/httpbin
         resources:
           limits:
             memory: "128Mi"

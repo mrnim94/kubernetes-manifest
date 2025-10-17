@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: busybox
-        image: yauritux/busybox-curl
+        image: mrnim94/busybox-curl
         imagePullPolicy: IfNotPresent
         
         command: ['sh', '-c', 'echo Container 1 is Running ; sleep 3600']
