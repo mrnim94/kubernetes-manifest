@@ -1,3 +1,11 @@
+---
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: busybox-sa
+
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -24,3 +32,4 @@ spec:
         imagePullPolicy: IfNotPresent
         
         command: ['sh', '-c', 'echo Container 1 is Running ; sleep 3600']
+      serviceAccountName: busybox-sa
